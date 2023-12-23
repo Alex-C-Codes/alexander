@@ -17,7 +17,7 @@ export default function Music() {
                 <br></br><br></br>
                 {/* <iframe width="373" height="210" src="https://www.youtube.com/embed/YBGOGJngZwE?si=-ixcBl6iWonlwsRq&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
 
-                <p>YouTube: <a href="youtube.com/@alexfcook">@alexfcook</a></p>
+                <p>YouTube: <a href="https://www.youtube.com/@alexfcook">@alexfcook</a></p>
                 
                 {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/YBGOGJngZwE?si=U3cb1TwB7vWM8u3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
 
