@@ -87,6 +87,10 @@ li {
 }
 
 /* Header Styling */
+.siteHeader a {
+  text-decoration: none;
+}
+
 .navbar {
   margin-top: 25px;
   display: flex;

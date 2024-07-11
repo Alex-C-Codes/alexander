@@ -3,6 +3,8 @@ import Home from "./pages/Home";
 import Music from "./pages/Music";
 import Coding from "./pages/Coding";
 import Marketing from "./pages/Marketing";
+import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
@@ -21,6 +23,12 @@ export default function PagesContainer() {
         }
         if (currentPage === 'Marketing') {
             return <Marketing />;
+        }
+        if (currentPage === 'Contact') {
+            return <Contact />;
+        }
+        if (currentPage === 'Resume') {
+            return <Resume />;
         }
     };
 

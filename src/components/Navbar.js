@@ -6,13 +6,25 @@ export default function Navbar({ currentPage, handlePageChange }) {
             <div className="content-card-container">
                 <div style={{display:'flex',justifyContent:'center',marginBottom:'20px'}}>
                     <div style={{marginRight:'15px'}}>
-                        <img 
+                        <a
+                            href="#home"
+                            onClick={() => handlePageChange('Home')}
+                            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                        >
+                            <img 
                             src={require('./assets/profile.jpg')} 
                             style={{width:"85px",height:"85px",borderRadius:'50%'}} 
                             alt="Profile" />
+                        </a>
                     </div>
-                    <div>
-                        <h1>@alexfcook</h1>
+                    <div className="siteHeader">
+                        <a
+                            href="#home"
+                            onClick={() => handlePageChange('Home')}
+                            className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+                        >
+                            <h1>Alex Cook</h1>
+                        </a>
                     </div>
                 </div>
                 <ul>
@@ -31,16 +43,25 @@ export default function Navbar({ currentPage, handlePageChange }) {
                             onClick={() => handlePageChange('Coding')}
                             className={currentPage === 'Coding' ? 'nav-link active' : 'nav-link'}
                         >
-                            Coding
+                            Coding Portfolio
                         </a>
                     </li>
                     <li>
                         <a
-                            href="#music"
-                            onClick={() => handlePageChange('Music')}
-                            className={currentPage === 'Music' ? 'nav-link active' : 'nav-link'}
+                            href="#contact"
+                            onClick={() => handlePageChange('Contact')}
+                            className={currentPage === 'contact' ? 'nav-link active' : 'nav-link'}
                         >
-                            Music
+                            Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="#resume"
+                            onClick={() => handlePageChange('Resume')}
+                            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                        >
+                            Resume
                         </a>
                     </li>
                     <li>
@@ -50,6 +71,15 @@ export default function Navbar({ currentPage, handlePageChange }) {
                             className={currentPage === 'Marketing' ? 'nav-link active' : 'nav-link'}
                         >
                             Marketing
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="#music"
+                            onClick={() => handlePageChange('Music')}
+                            className={currentPage === 'Music' ? 'nav-link active' : 'nav-link'}
+                        >
+                            Music
                         </a>
                     </li>
                 </ul>
