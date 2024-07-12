@@ -10,8 +10,8 @@ export default function Footer() {
             </ul> */}
             <h3>Links</h3>
             <ul>
-                <li><a href="https://twitter.com/AlexFCook">GitHub</a></li>
-                <li><a href="https://www.instagram.com/alexfcook/">LinkedIn</a></li>
+                <li><a href="https://github.com/Alex-C-Codes">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/alex-cook-5408b4ab/">LinkedIn</a></li>
             </ul>
             <br></br>
             {/* <h3>Socials</h3>
